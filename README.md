@@ -1,46 +1,40 @@
-<div align="center">
-    <h1> Maratona Discover</h1>
-    - Nesse evento da rocketseat foi nos apresentado conceitos basicos de HTML, CSS e Javascript
-    
-</div>
+**Tags**: #CSS #Docker #Html #JavaScript #Markdown
 
+#DevFinance # DevFinance
 
-<div align="center">
-    <img src="./imagens do projeto/DevFinances.png"  />
-    <img src="./imagens do projeto/inserindo Dados.png"  />
-</div>
+**Status**: `#Project/Static` `#Finance` `#Frontend`
 
-<div align="center">
-    <h4>🚀 Finalizado...</h4>
-</div>
+## 📝 Descrição
+O **DevFinance** é uma aplicação de controle financeiro desenvolvida durante a Maratona Discover. Ele permite cadastrar e visualizar entradas e saídas financeiras de forma simples e intuitiva.
 
+> [!NOTE]
+> Este projeto é uma aplicação estática (HTML, CSS, JS) servida via Nginx/Docker.
 
+## 🔗 Repositório
+*Este projeto possui código fonte local.*
+- ** Código Fonte**: [Local Files](./)
 
-Tabela de conteúdos
-=================
-<!--ts-->
-   * [Features](#Features)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-<!--te-->
+## 🚀 Como Rodar (Docker)
 
-<div id="Features" align="center">
-    <h1> Features</h1>
-</div>
+Esta aplicação foi containerizada para fácil execução.
 
-- [X] layout elaborado pela rocketseat
-- [X] CRUD da transação
-- [X] salvar e ler dados do localStorage
-- [x] Tabalhando com calculos matematicos,
-- [x] adicionar categorias,
-- [x] ordenar tabela de acordo com coluna x,
+### Pré-requisitos
+- Docker & Docker Compose instalados.
 
-<!--- [ ] autenticação e conexão de qualquer dispositivo (usando [firebase](https://firebase.google.com/))-->
+### Passos
+1. Navegue até a pasta do projeto:
+   ```bash
+   cd 01_Projetos/DevFinance
+   ```
+2. Suba o container:
+   ```bash
+   docker-compose up -d
+   ```
+3. Avesse no navegador:
+   http://localhost:8080
 
-<div id="pre-requisitos" align="center">
-    <h4>Pré-requisitos</h4>
-</div>
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[VSCode](https://code.visualstudio.com/) e o plug live Server
-
+## 📂 Estrutura
+- `index.html`: Estrutura da página.
+- `style.css`: Estilização.
+- `script.js`: Lógica de transações e DOM.
+- `Dockerfile`: Configuração Nginx.
